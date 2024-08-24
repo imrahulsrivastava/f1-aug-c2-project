@@ -21,6 +21,10 @@ body {
   align-items: center;
   background-color: var(--orange);
   padding-inline: 1em;
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 
 .header__title {
