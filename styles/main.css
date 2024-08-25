@@ -200,9 +200,9 @@ body {
   border-right-color: var(--orange);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .hero {
-    flex-direction: column;
+    flex-direction: column-reverse;
     text-align: center;
   }
 
@@ -212,6 +212,12 @@ body {
     margin-bottom: 50px;
   }
 
+  .contact__title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
   .contact__input-group {
     flex-direction: column;
   }
@@ -219,7 +225,9 @@ body {
   .header__nav {
     text-align: center;
   }
+}
 
+@media (max-width: 600px) {
   .header__menu li {
     display: block;
     margin: 0.5em 0;
